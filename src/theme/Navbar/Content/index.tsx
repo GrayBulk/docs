@@ -47,15 +47,17 @@ export default function NavbarContent(): JSX.Element {
       <HStack alignItems="center" gap={1.5}>
         {windowSize === 'mobile' && <NavbarMobileSidebarToggle />}
         <NavbarLogo />
-        <Text
-          background="bgSecondary"
-          borderRadius={700}
-          font="label1"
-          paddingX={1}
-          paddingY={0.5}
-        >
-          By Gray Cup
-        </Text>
+        <a href="https://graycup.org" style={{ textDecoration: 'none' }}>
+          <Text
+            background="bgSecondary"
+            borderRadius={700}
+            font="label1"
+            paddingX={1}
+            paddingY={0.5}
+          >
+            By Gray Cup
+          </Text>
+        </a>
       </HStack>
       <HStack alignItems="center" gap={1.5}>
         {searchBarItem && <SearchBar />}
