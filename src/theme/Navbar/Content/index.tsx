@@ -1,11 +1,9 @@
 import { type JSX, useMemo, useRef } from 'react';
 import { useDimensions } from '@coinbase/cds-web/hooks/useDimensions';
 import { HStack } from '@coinbase/cds-web/layout/HStack';
-import { Tooltip } from '@coinbase/cds-web/overlays/tooltip/Tooltip';
 import { Text } from '@coinbase/cds-web/typography/Text';
 import { useThemeConfig } from '@docusaurus/theme-common';
 import NavbarThemeToggle from '@site/src/components/nav/NavbarThemeToggle';
-import { useCDSVersions } from '@site/src/hooks/useCDSVersions';
 import { useWindowSizeWithBreakpointOverride } from '@site/src/utils/useWindowSizeWithBreakpointOverride';
 import NavbarColorModeToggle from '@theme/Navbar/ColorModeToggle';
 import NavbarLogo from '@theme/Navbar/Logo';
@@ -20,7 +18,6 @@ function useNavbarItems() {
 
 export default function NavbarContent(): JSX.Element {
   const windowSize = useWindowSizeWithBreakpointOverride();
-  const { cdsCommonVersion, cdsIconsVersion, cdsIllustrationsVersion } = useCDSVersions();
 
   const items = useNavbarItems();
   const linkItems = useMemo(
@@ -38,26 +35,6 @@ export default function NavbarContent(): JSX.Element {
     },
   });
 
-  const tooltipContent = (
-    <Text
-      display="inline-flex"
-      flexDirection="column"
-      font="legal"
-      left="calc(var(--space-1) * -1.5)"
-      paddingX={1}
-      position="relative"
-      style={{ fontSize: 12 }}
-      top="calc(var(--space-1) * -0.5)"
-      width={260}
-    >
-      <Text>@coinbase/cds-common@{cdsCommonVersion}</Text>
-      <Text>@coinbase/cds-mobile@{cdsCommonVersion}</Text>
-      <Text>@coinbase/cds-web@{cdsCommonVersion}</Text>
-      <Text>@coinbase/cds-icons@{cdsIconsVersion}</Text>
-      <Text>@coinbase/cds-illustrations@{cdsIllustrationsVersion}</Text>
-    </Text>
-  );
-
   return (
     <HStack
       ref={navbarRef}
@@ -70,18 +47,15 @@ export default function NavbarContent(): JSX.Element {
       <HStack alignItems="center" gap={1.5}>
         {windowSize === 'mobile' && <NavbarMobileSidebarToggle />}
         <NavbarLogo />
-        <Tooltip content={tooltipContent} placement="right">
-          <Text
-            background="bgSecondary"
-            borderRadius={700}
-            font="label1"
-            paddingX={1}
-            paddingY={0.5}
-            style={{ cursor: 'crosshair' }}
-          >
-            v{cdsCommonVersion}
-          </Text>
-        </Tooltip>
+        <Text
+          background="bgSecondary"
+          borderRadius={700}
+          font="label1"
+          paddingX={1}
+          paddingY={0.5}
+        >
+          By Gray Cup
+        </Text>
       </HStack>
       <HStack alignItems="center" gap={1.5}>
         {searchBarItem && <SearchBar />}
