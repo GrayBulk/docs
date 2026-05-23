@@ -1,0 +1,13 @@
+{
+  "buildCommand": "bun run docusaurus build",
+  "outputDirectory": "build",
+  "installCommand": "bun install",
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/components/graphs/:path*",
+      "destination": "/components/charts/:path*",
+      "permanent": true
+    }
+  ]
+}
