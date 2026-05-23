@@ -63,8 +63,10 @@ function plugin({
         ...tocPropsAliases,
         ...stylesDataAliases,
         ...tocStylesAliases,
-        [`:docgen/_types/sharedTypeAliases`]: _nodePath.default.join(pluginDir, '_types/sharedTypeAliases'),
-        [`:docgen/_types/sharedParentTypes`]: _nodePath.default.join(pluginDir, '_types/sharedParentTypes')
+        ...(content ? {
+          [`:docgen/_types/sharedTypeAliases`]: _nodePath.default.join(pluginDir, '_types/sharedTypeAliases'),
+          [`:docgen/_types/sharedParentTypes`]: _nodePath.default.join(pluginDir, '_types/sharedParentTypes')
+        } : {})
       };
       return {
         resolve: {

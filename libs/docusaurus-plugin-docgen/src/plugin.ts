@@ -102,8 +102,10 @@ export default function plugin(
         ...tocPropsAliases,
         ...stylesDataAliases,
         ...tocStylesAliases,
-        [`:docgen/_types/sharedTypeAliases`]: path.join(pluginDir, '_types/sharedTypeAliases'),
-        [`:docgen/_types/sharedParentTypes`]: path.join(pluginDir, '_types/sharedParentTypes'),
+        ...(content ? {
+          [`:docgen/_types/sharedTypeAliases`]: path.join(pluginDir, '_types/sharedTypeAliases'),
+          [`:docgen/_types/sharedParentTypes`]: path.join(pluginDir, '_types/sharedParentTypes'),
+        } : {}),
       };
 
       return {
