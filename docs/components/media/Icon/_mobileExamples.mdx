@@ -1,0 +1,28 @@
+:::tip Rebuild Required After Icon Updates
+
+Mobile apps cache font files in the native build, so you must rebuild your app after updating `@coinbase/cds-icons` to see changes.
+
+:::
+
+### Basic example
+
+```jsx
+<VStack gap={2}>
+  <HStack gap={1}>
+    <Icon name="account" size="xs" />
+    <Icon name="account" size="xs" active />
+  </HStack>
+  <HStack gap={1}>
+    <Icon name="account" size="s" />
+    <Icon name="account" size="s" active />
+  </HStack>
+  <HStack gap={1}>
+    <Icon name="account" size="m" />
+    <Icon name="account" size="m" active />
+  </HStack>
+  <HStack gap={1}>
+    <Icon name="account" size="l" />
+    <Icon name="account" size="l" active />
+  </HStack>
+</VStack>
+```
