@@ -23,6 +23,8 @@ const webpackPlugin = () => {
       resolve: {
         alias: {
           ':docgen': path.resolve(__dirname, 'docgen-data'),
+          ':docgen/_types/sharedTypeAliases': path.resolve(__dirname, 'docgen-data/_types/sharedTypeAliases'),
+          ':docgen/_types/sharedParentTypes': path.resolve(__dirname, 'docgen-data/_types/sharedParentTypes'),
         },
       },
       module: {
