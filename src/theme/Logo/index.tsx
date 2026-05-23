@@ -9,8 +9,9 @@ const Logo = forwardRef<HTMLAnchorElement, Props>(
     const { withBaseUrl } = useBaseUrlUtils();
 
     return (
-      <Link ref={ref} to={withBaseUrl('/')} {...linkProps}>
-        <LogoSvg title="Coinbase Design System Logo" />
+      <Link ref={ref} to={withBaseUrl('/')} {...linkProps} style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
+        <LogoSvg title="Gray Bulk Logo" />
+        <span style={{ fontWeight: 700, fontSize: '1.1rem', letterSpacing: '-0.01em', whiteSpace: 'nowrap' }}>Gray Bulk</span>
       </Link>
     );
   },
