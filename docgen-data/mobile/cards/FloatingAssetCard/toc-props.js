@@ -1,0 +1,1 @@
+module.exports = [{"id":"media","level":3,"value":"media"},{"id":"title","level":3,"value":"title"},{"id":"description","level":3,"value":"description"},{"id":"onPress","level":3,"value":"onPress"},{"id":"size","level":3,"value":"size"},{"id":"subtitle","level":3,"value":"subtitle"},{"id":"testID","level":3,"value":"testID"}]

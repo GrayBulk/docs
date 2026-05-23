@@ -1,0 +1,1 @@
+module.exports = [{"id":"color","level":3,"value":"color"},{"id":"id","level":3,"value":"id"},{"id":"opacity","level":3,"value":"opacity"}]

@@ -1,0 +1,1 @@
+module.exports = [{"id":"foreground","level":3,"value":"foreground"},{"id":"size","level":3,"value":"size"}]

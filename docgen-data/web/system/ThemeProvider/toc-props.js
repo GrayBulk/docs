@@ -1,0 +1,1 @@
+module.exports = [{"id":"activeColorScheme","level":3,"value":"activeColorScheme"},{"id":"theme","level":3,"value":"theme"},{"id":"className","level":3,"value":"className"},{"id":"display","level":3,"value":"display"},{"id":"isolated","level":3,"value":"isolated"},{"id":"motionFeatures","level":3,"value":"motionFeatures"},{"id":"style","level":3,"value":"style"}]

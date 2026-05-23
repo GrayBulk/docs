@@ -1,0 +1,1 @@
+module.exports = {"version":"9.0.2","peerDependencies":{"framer-motion":"^10.18.0","react":"^18.0.0 || ~19.1.2","react-dom":"^18.0.0 || ~19.1.2"}}

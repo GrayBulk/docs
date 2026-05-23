@@ -1,0 +1,1 @@
+module.exports = [{"id":"colorPulseOnUpdate","level":3,"value":"colorPulseOnUpdate"},{"id":"defaultColor","level":3,"value":"defaultColor"},{"id":"formatted","level":3,"value":"formatted"},{"id":"negativePulseColor","level":3,"value":"negativePulseColor"},{"id":"positivePulseColor","level":3,"value":"positivePulseColor"},{"id":"value","level":3,"value":"value"}]

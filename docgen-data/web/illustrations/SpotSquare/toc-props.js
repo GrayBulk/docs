@@ -1,0 +1,1 @@
+module.exports = [{"id":"name","level":3,"value":"name"},{"id":"alt","level":3,"value":"alt"},{"id":"applyTheme","level":3,"value":"applyTheme"},{"id":"dimension","level":3,"value":"dimension"},{"id":"fallback","level":3,"value":"fallback"},{"id":"scaleMultiplier","level":3,"value":"scaleMultiplier"},{"id":"testID","level":3,"value":"testID"}]

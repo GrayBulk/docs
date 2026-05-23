@@ -1,0 +1,1 @@
+module.exports = [{"id":"shouldTakeUpHeight","level":3,"value":"shouldTakeUpHeight"},{"id":"formatHoverDate","level":3,"value":"formatHoverDate"},{"id":"ref","level":3,"value":"ref"}]

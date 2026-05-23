@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"root","className":"","description":"Root element"},{"selector":"content","className":"","description":"Content element"}]}

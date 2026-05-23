@@ -1,0 +1,1 @@
+module.exports = [{"id":"color","level":3,"value":"color"},{"id":"periods","level":3,"value":"periods"},{"id":"selectedPeriod","level":3,"value":"selectedPeriod"},{"id":"setSelectedPeriod","level":3,"value":"setSelectedPeriod"}]

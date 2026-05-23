@@ -1,0 +1,1 @@
+module.exports = [{"id":"color","level":3,"value":"color"},{"id":"showHoverDate","level":3,"value":"showHoverDate"}]

@@ -1,0 +1,1 @@
+module.exports = [{"id":"borderColor","level":3,"value":"borderColor"},{"id":"borderWidth","level":3,"value":"borderWidth"},{"id":"children","level":3,"value":"children"},{"id":"max","level":3,"value":"max"},{"id":"shape","level":3,"value":"shape"},{"id":"size","level":3,"value":"size"},{"id":"testID","level":3,"value":"testID"}]

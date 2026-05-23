@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"content","className":"","description":"Elevated panel surface (PopoverPanelContent)."},{"selector":"triggerContainer","className":"","description":"Wrapper around children (the Popover root in floating layout, or the trigger div in the mobile modal)."}]}

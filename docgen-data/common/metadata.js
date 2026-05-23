@@ -1,0 +1,1 @@
+module.exports = {"version":"9.0.2","peerDependencies":{"react":"^18.0.0 || ~19.1.2"}}

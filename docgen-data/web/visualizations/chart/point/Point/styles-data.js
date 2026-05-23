@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"root","className":"","description":"point root element."},{"selector":"point","className":"","description":"inner circle element."}]}

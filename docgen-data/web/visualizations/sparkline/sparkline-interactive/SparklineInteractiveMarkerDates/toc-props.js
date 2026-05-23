@@ -1,0 +1,1 @@
+module.exports = [{"id":"formatDate","level":3,"value":"formatDate"},{"id":"getMarker","level":3,"value":"getMarker"},{"id":"selectedPeriod","level":3,"value":"selectedPeriod"},{"id":"timePeriodGutter","level":3,"value":"timePeriodGutter"}]

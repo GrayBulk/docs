@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"root","className":"cds-IconButton","description":"Root button element"},{"selector":"icon","className":"cds-IconButton-icon","description":"Inner icon glyph element"},{"selector":"progressCircle","className":"cds-IconButton-progressCircle","description":"Loading progress circle element"}]}

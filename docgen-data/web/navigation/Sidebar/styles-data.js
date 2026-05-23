@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"root","className":"","description":"Root sidebar container element"},{"selector":"logo","className":"","description":"Logo container element"},{"selector":"content","className":"","description":"Content container element (children list)"},{"selector":"end","className":"","description":"End container element (renderEnd)"}]}

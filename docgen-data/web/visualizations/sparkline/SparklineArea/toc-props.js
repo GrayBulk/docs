@@ -1,0 +1,1 @@
+module.exports = [{"id":"area","level":3,"value":"area"},{"id":"key","level":3,"value":"key"},{"id":"maskId","level":3,"value":"maskId"},{"id":"patternId","level":3,"value":"patternId"},{"id":"ref","level":3,"value":"ref"}]

@@ -1,0 +1,1 @@
+module.exports = [{"id":"dataPoint","level":3,"value":"dataPoint"},{"id":"formatMinMaxLabel","level":3,"value":"formatMinMaxLabel"},{"id":"xFunction","level":3,"value":"xFunction"}]

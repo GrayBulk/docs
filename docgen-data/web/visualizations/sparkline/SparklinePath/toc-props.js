@@ -1,0 +1,1 @@
+module.exports = [{"id":"stroke","level":3,"value":"stroke"},{"id":"key","level":3,"value":"key"},{"id":"path","level":3,"value":"path"},{"id":"ref","level":3,"value":"ref"}]

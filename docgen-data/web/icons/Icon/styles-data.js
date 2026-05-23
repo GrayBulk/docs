@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"root","className":"","description":"Outer Box wrapper element"},{"selector":"icon","className":"","description":"Inner icon glyph element"}]}

@@ -1,0 +1,1 @@
+module.exports = [{"id":"allowOverflowGestures","level":3,"value":"allowOverflowGestures"},{"id":"enableScrubbing","level":3,"value":"enableScrubbing"},{"id":"onScrubberPositionChange","level":3,"value":"onScrubberPositionChange"}]

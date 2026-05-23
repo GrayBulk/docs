@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"header","className":"","description":"header node."},{"selector":"root","className":"","description":"root element."}]}

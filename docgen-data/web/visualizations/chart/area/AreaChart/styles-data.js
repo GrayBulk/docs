@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"root","className":"","description":"root element."},{"selector":"chart","className":"","description":"chart SVG element."}]}

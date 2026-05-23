@@ -1,0 +1,1 @@
+module.exports = {"selectors":[{"selector":"root","className":"","description":"Root element"},{"selector":"svg","className":"","description":"SVG element"},{"selector":"circle","className":"","description":"Background circle element"},{"selector":"progress","className":"","description":"Foreground progress circle element"}]}

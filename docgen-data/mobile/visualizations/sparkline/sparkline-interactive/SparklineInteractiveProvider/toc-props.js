@@ -1,0 +1,1 @@
+module.exports = [{"id":"compact","level":3,"value":"compact"},{"id":"gutter","level":3,"value":"gutter"}]

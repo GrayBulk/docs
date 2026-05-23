@@ -1,0 +1,1 @@
+module.exports = [{"id":"detail","level":3,"value":"detail"},{"id":"detailNode","level":3,"value":"detailNode"},{"id":"subdetail","level":3,"value":"subdetail"},{"id":"subdetailFont","level":3,"value":"subdetailFont"},{"id":"subdetailNode","level":3,"value":"subdetailNode"},{"id":"variant","level":3,"value":"variant"}]

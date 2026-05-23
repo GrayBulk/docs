@@ -1,0 +1,1 @@
+module.exports = [{"id":"seriesIds","level":3,"value":"seriesIds"},{"id":"BeaconComponent","level":3,"value":"BeaconComponent"},{"id":"idlePulse","level":3,"value":"idlePulse"},{"id":"key","level":3,"value":"key"},{"id":"ref","level":3,"value":"ref"},{"id":"stroke","level":3,"value":"stroke"},{"id":"transitions","level":3,"value":"transitions"}]
